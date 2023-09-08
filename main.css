@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+#text {
+    position: absolute;
+    margin-right: 850px;
+    margin-top: 100px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 400px;
+    font-size: larger;
+}
+
+#slider-frame2 {
+  overflow: hidden;
+  width: 800px;
+  height: 400px;
+  margin-top: 50px;
+  border-width: 800px;
+  border-radius: 15px;
+  position: relative;
+  margin-left: 540px;
+  box-shadow: #020255 10px 10px;
+}
+
+#slide-images2 {
+  width: 3600px;
+  height: 500px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation-name: slide_animation2;
+  -webkit-animation-duration: 33s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+}
+
+@-webkit-keyframes slide_animation2 {
+  0% {
+     left: 0px;
+  }
+  10% {
+      left: 0px;
+  }
+  20% {
+      left: 1200px;
+  }
+  30% {
+      left: 1200px;
+  }
+  40% {
+      left: 2400px;
+  }
+  50% {
+      left: 2400px;
+  }
+  60% {
+      left: 1200px;
+  }
+  70% {
+      left: 1200px;
+  }
+  80% {
+      left: 0px;
+  }
+  90% {
+      left: 0px;
+  }
+  100% {
+      left: 0px;
+  }
+}
+
+#img-container2 {
+  width: 1200px;
+  height: 800px;
+  position: relative;
+  float: left;
+}
+
+#text2 {
+  position: absolute;
+  margin-right: 850px;
+  margin-top: 100px;
+  font-size: larger;
+  font-style: italic;
+  font-weight: 400px;
+  font-size: larger;
+}
+
+#slider-frame1 {
+    overflow: hidden;
+    position: relative;
+    width: 800px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 100px;
+    border-width: 500px;
+    border-radius: 15px;
+    box-shadow: #020255 10px 10px;
+}
+
+#text1 {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 70px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 400px;
+    font-size: larger;
+}
+
+#slide-images1 {
+    width: 3600px;
+    height: 500px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation1;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+@-webkit-keyframes slide_animation1 {
+    0% {
+       left: 0px;
+    }
+    10% {
+        left: 0px;
+    }
+    20% {
+        left: 1200px;
+    }
+    30% {
+        left: 1200px;
+    }
+    40% {
+        left: 2400px;
+    }
+    50% {
+        left: 2400px;
+    }
+    60% {
+        left: 1200px;
+    }
+    70% {
+        left: 1200px;
+    }
+    80% {
+        left: 0px;
+    }
+    90% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+#img-container1 {
+  width: 1200px;
+  height: 800px;
+  position: relative;
+  float: left;
+}
+
+.slider-frame {
+    overflow: hidden;
+    width: 800px;
+    height: 400px;
+    margin-top: 50px;
+    border-width: 800px;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 540px;
+    box-shadow: #020255 10px 10px;
+}
+
+@-webkit-keyframes slide_animation {
+    0% {
+        left: 0px;
+    }
+    10% {
+        left: 0px;
+    }
+    20% {
+        left: 1200px;
+    }
+    30% {
+        left: 1200px;
+    }
+    40% {
+        left: 2400px;
+    }
+    50% {
+        left: 2400px;
+    }
+    60% {
+        left: 1200px;
+    }
+    70% {
+        left: 1200px;
+    }
+    80% {
+        left: 0px;
+    }
+    90% {
+        left: 0px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.slide-images {
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container {
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    float: left;
+}
